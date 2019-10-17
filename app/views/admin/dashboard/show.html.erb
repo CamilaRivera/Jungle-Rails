@@ -1,2 +1,83 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<h2>Total</h2>
+  <div class="panel panel-default items">
+    <table class="table table-bordered">
+      <thead>
+        <tr>          
+          <th></th>
+          <th>Count</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Categories</th>
+          <td><%= @categories_total %></td>
+        <tr>
+        </tr>
+          <th><%= link_to 'Product', admin_products_path %></th>
+          <td><%= @products_total %></td>
+        </tr>
+      </tbody>
+
+    </table>
+  </div>
+<h2>Products per Category</h2>
+  <div class="panel panel-default items">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          
+          <th>Name</th>
+          <th>Count</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @categories.each do |category| %>
+        <tr>
+        <td><%= category[:name] %></td>
+        <td><%= category[:count] %></td>
+        </tr>
+        <% end %>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="1">
+            TOTAL
+          </th>
+          <th>
+            <%= @products_total %>
+          </th>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+<h2>Quantity per Products</h2>
+  <div class="panel panel-default items">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          
+          <th>Name</th>
+          <th>Count</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @products.each do |product| %>
+        <tr>
+        <td><%= product[:name] %></td>
+        <td><%= product[:count] %></td>
+        </tr>
+        <% end %>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="1">
+            TOTAL
+          </th>
+          <th>
+            <%= @products_quantity %>
+          </th>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+

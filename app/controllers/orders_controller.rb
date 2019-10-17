@@ -1,6 +1,7 @@
 class OrdersController < ApplicationController
 
   def show
+    enhanced_cart = enhanced_cart
     @order = Order.find(params[:id])
   end
 
@@ -9,6 +10,7 @@ class OrdersController < ApplicationController
     order  = create_order(charge)
 
     if order.valid?
+      enhanced_cart = enhanced_cart
       redirect_to order, notice: 'Your Order has been placed.'
       empty_cart!
     else

@@ -27,7 +27,7 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 ### Login
 !["Login"](https://github.com/CamilaRivera/Jungle-Rails/blob/master/docs/login.png?raw=true)
 ### Register
-!["Register"](https://github.com/CamilaRivera/Jungle-Rails/blob/master/docs/signup.png?raw=true)
+!["Register"](https://github.com/CamilaRivera/Jungle-Rails/blob/master/docs/Signup.png?raw=true)
 
 ## Setup
 

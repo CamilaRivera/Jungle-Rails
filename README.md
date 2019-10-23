@@ -2,6 +2,32 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+## Final Product
+
+### Index / Products Page
+!["Index Page"](https://github.com/CamilaRivera/tweeter-/blob/master/docs/index.png?raw=true)
+### Categories Page
+!["Index Page"](https://github.com/CamilaRivera/tweeter-/blob/master/docs/index.png?raw=true)
+### Admin Dashboard
+![" Empty tweet error"](https://github.com/CamilaRivera/tweeter-/blob/master/docs/empty-tweet-error.png?raw=true)
+### Admin Categories
+!["Content max length error"](https://github.com/CamilaRivera/tweeter-/blob/master/docs/content-max-length-error.png?raw=true)
+### Admin Products
+!["Mobile version"](https://github.com/CamilaRivera/tweeter-/blob/master/docs/mobile-version.png?raw=true)
+### About
+![" Empty tweet error"](https://github.com/CamilaRivera/tweeter-/blob/master/docs/empty-tweet-error.png?raw=true)
+### Cart
+!["Mobile version"](https://github.com/CamilaRivera/tweeter-/blob/master/docs/mobile-version.png?raw=true)
+### Empty cart
+!["Content max length error"](https://github.com/CamilaRivera/tweeter-/blob/master/docs/content-max-length-error.png?raw=true)
+### Payment
+!["Content max length error"](https://github.com/CamilaRivera/tweeter-/blob/master/docs/content-max-length-error.png?raw=true)
+### Order
+!["Content max length error"](https://github.com/CamilaRivera/tweeter-/blob/master/docs/content-max-length-error.png?raw=true)
+### Login
+!["Content max length error"](https://github.com/CamilaRivera/tweeter-/blob/master/docs/content-max-length-error.png?raw=true)
+### Register
+!["Content max length error"](https://github.com/CamilaRivera/tweeter-/blob/master/docs/content-max-length-error.png?raw=true)
 
 ## Setup
 
@@ -25,3 +51,9 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+
+## Dev Dependencies
+
+* Capybara
+* Poltergeist
+* Database Cleaner

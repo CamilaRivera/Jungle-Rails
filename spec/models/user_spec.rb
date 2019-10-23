@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe User, type: :model do
-  subject { described_class.new(name: "some_name", email: "some_email", password: "some_password", password_confirmation: "some_password") } 
+  subject { described_class.new(first_name: "some_first", last_name: "some_last", email: "some_email", password: "some_password", password_confirmation: "some_password") } 
 
   describe "Validations" do
 
@@ -10,10 +10,16 @@ RSpec.describe User, type: :model do
       expect(subject.errors).to be_empty
     end
 
-    it "is not valid without a name" do
-      subject.name = nil
+    it "is not valid without a first name" do
+      subject.first_name = nil
       expect(subject).to_not be_valid
-      expect(subject.errors[:name]).to_not be_empty
+      expect(subject.errors[:first_name]).to_not be_empty
+    end
+
+    it "is not valid without a last name" do
+      subject.last_name = nil
+      expect(subject).to_not be_valid
+      expect(subject.errors[:last_name]).to_not be_empty
     end
 
     it "is not valid without a email" do
@@ -37,13 +43,13 @@ RSpec.describe User, type: :model do
     end
 
     it "email can't be similar to other email in the database" do
-      subject2 = described_class.create!(name: "some_name2", email: "some_email", password: "some_password2", password_confirmation: "some_password2") 
+      subject2 = described_class.create!(first_name: "some_first2", last_name: "some_last2", email: "some_email", password: "some_password2", password_confirmation: "some_password2") 
       expect(subject).to_not be_valid
       expect(subject.errors[:email]).to_not be_empty
     end
 
     it "email can't be similar to other email in the database with different email capitalization" do
-      subject2 = described_class.create!(name: "some_name2", email: "soMe_email", password: "some_password2", password_confirmation: "some_password2") 
+      subject2 = described_class.create!(first_name: "some_first2", last_name: "some_last2", email: "soMe_email", password: "some_password2", password_confirmation: "some_password2") 
       expect(subject).to_not be_valid
       expect(subject.errors[:email]).to_not be_empty
     end 

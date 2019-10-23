@@ -5,29 +5,29 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 ## Final Product
 
 ### Index / Products Page
-!["Index Page"](https://github.com/CamilaRivera/tweeter-/blob/master/docs/index.png?raw=true)
-### Categories Page
-!["Index Page"](https://github.com/CamilaRivera/tweeter-/blob/master/docs/index.png?raw=true)
+!["Index Page"](https://github.com/CamilaRivera/Jungle-Rails/blob/master/docs/index.png?raw=true)
+### Categories
+!["Categories"](https://github.com/CamilaRivera/Jungle-Rails/blob/master/docs/categories.png?raw=true)
 ### Admin Dashboard
-![" Empty tweet error"](https://github.com/CamilaRivera/tweeter-/blob/master/docs/empty-tweet-error.png?raw=true)
+!["Admin Dashboard"](https://github.com/CamilaRivera/Jungle-Rails/blob/master/docs/dashboard.png?raw=true)
 ### Admin Categories
-!["Content max length error"](https://github.com/CamilaRivera/tweeter-/blob/master/docs/content-max-length-error.png?raw=true)
+!["Admin Categories"](https://github.com/CamilaRivera/Jungle-Rails/blob/master/docs/admincategories.png?raw=true)
 ### Admin Products
-!["Mobile version"](https://github.com/CamilaRivera/tweeter-/blob/master/docs/mobile-version.png?raw=true)
+!["Admin Products"](https://github.com/CamilaRivera/Jungle-Rails/blob/master/docs/adminproducts.png?raw=true)
 ### About
-![" Empty tweet error"](https://github.com/CamilaRivera/tweeter-/blob/master/docs/empty-tweet-error.png?raw=true)
+!["About"](https://github.com/CamilaRivera/Jungle-Rails/blob/master/docs/about.png?raw=true)
 ### Cart
-!["Mobile version"](https://github.com/CamilaRivera/tweeter-/blob/master/docs/mobile-version.png?raw=true)
+!["Cart"](https://github.com/CamilaRivera/Jungle-Rails/blob/master/docs/cart.png?raw=true)
 ### Empty cart
-!["Content max length error"](https://github.com/CamilaRivera/tweeter-/blob/master/docs/content-max-length-error.png?raw=true)
+!["Empty cart"](https://github.com/CamilaRivera/Jungle-Rails/blob/master/docs/empty.png?raw=true)
 ### Payment
-!["Content max length error"](https://github.com/CamilaRivera/tweeter-/blob/master/docs/content-max-length-error.png?raw=true)
+!["Payment"](https://github.com/CamilaRivera/Jungle-Rails/blob/master/docs/payment.png?raw=true)
 ### Order
-!["Content max length error"](https://github.com/CamilaRivera/tweeter-/blob/master/docs/content-max-length-error.png?raw=true)
+!["Order"](https://github.com/CamilaRivera/Jungle-Rails/blob/master/docs/order.png?raw=true)
 ### Login
-!["Content max length error"](https://github.com/CamilaRivera/tweeter-/blob/master/docs/content-max-length-error.png?raw=true)
+!["Login"](https://github.com/CamilaRivera/Jungle-Rails/blob/master/docs/login.png?raw=true)
 ### Register
-!["Content max length error"](https://github.com/CamilaRivera/tweeter-/blob/master/docs/content-max-length-error.png?raw=true)
+!["Register"](https://github.com/CamilaRivera/Jungle-Rails/blob/master/docs/signup.png?raw=true)
 
 ## Setup
 
